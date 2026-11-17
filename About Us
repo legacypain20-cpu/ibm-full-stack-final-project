@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Our Team</title>
+    
+    <!-- Correct CSS Link (Update the href if your CSS file is named differently) -->
+    <link rel="stylesheet" href="/static/style.css">
+    
+    <!-- Adding Bootstrap for quick and clean styling (Optional but recommended for good design) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        .team-member {
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .about-header {
+            margin: 40px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row about-header">
+        <div class="col-12">
+            <h1>About Us</h1>
+            <p class="lead">Meet the dedicated team behind our dealership platform.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4">
+            <div class="team-member">
+                <!-- Realistic Image -->
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=80" alt="Sarah Johnson">
+                <!-- Name & Role -->
+                <h3>Sarah Johnson</h3>
+                <h5 class="text-muted">Lead Developer</h5>
+                <!-- Brief Details -->
+                <p>Sarah has over 5 years of experience in full-stack Django development and cloud architecture. She ensures our platform is fast and reliable.</p>
+                <!-- Email ID -->
+                <a href="mailto:sarah.j@example.com" class="btn btn-primary btn-sm">sarah.j@example.com</a>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-4">
+            <div class="team-member">
+                <!-- Realistic Image -->
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&q=80" alt="Michael Chen">
+                <!-- Name & Role -->
+                <h3>Michael Chen</h3>
+                <h5 class="text-muted">UI/UX Designer</h5>
+                <!-- Brief Details -->
+                <p>Michael specializes in creating intuitive and responsive user interfaces. He designed the clean look and feel of our dealership application.</p>
+                <!-- Email ID -->
+                <a href="mailto:michael.c@example.com" class="btn btn-primary btn-sm">michael.c@example.com</a>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-md-4">
+            <div class="team-member">
+                <!-- Realistic Image -->
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80" alt="Elena Rodriguez">
+                <!-- Name & Role -->
+                <h3>Elena Rodriguez</h3>
+                <h5 class="text-muted">Project Manager</h5>
+                <!-- Brief Details -->
+                <p>Elena coordinates our development sprints and ensures we deliver features that our customers actually want and need.</p>
+                <!-- Email ID -->
+                <a href="mailto:elena.r@example.com" class="btn btn-primary btn-sm">elena.r@example.com</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
